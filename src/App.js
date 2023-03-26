@@ -90,7 +90,7 @@ const App = () => {
             required
             placeholder="Confirm Password"
           />
-          <h2 className={`captcha ${darkMode ? "captcha_dark" : "captcha_light"}`}>{captcha}</h2>
+          <h2 className={`captcha ${darkMode ? "captcha_dark" : "captcha_light"}`}>Fill the captcha : {captcha}</h2>
           <div className="captcha_root">
             <input
               type="text"
